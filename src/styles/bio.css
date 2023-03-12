@@ -1,0 +1,19 @@
+#bio-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+#bio-box > p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: left;
+  max-width: 60%;
+}
+#headshot {
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
