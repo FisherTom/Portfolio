@@ -17,7 +17,9 @@ function Projects() {
         <div id="card-f" className="grid-card two-tall "></div>
         <div id="card-g" className="grid-card two-wide two-tall"></div>
         <div id="card-h" className="grid-card"></div>
-        <div id="card-i" className="grid-card"></div>
+        <div id="card-i" className="grid-card sketch-card">
+        <MySketch />
+        </div>
         <div id="card-j" className="grid-card"></div>
       </section>
     </div>

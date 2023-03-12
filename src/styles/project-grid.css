@@ -31,6 +31,7 @@
 }
 .sketch-card {
   padding: 0;
+  background-color: rgba(0, 0, 0, 0);
 }
 @media screen and (min-width: 800px) {
   .two-tall {

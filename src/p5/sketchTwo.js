@@ -12,7 +12,7 @@ function SketchTwo(props) {
       tiles = [];
       for (let x = 0 + xdiv / 2; x < p5.width; x += xdiv) {
         for (let y = 0 + ydiv / 2; y < p5.height; y += ydiv) {
-          tiles.push([x, y, 10]);
+          tiles.push([x, y]);
         }
       }
     }
@@ -32,7 +32,7 @@ function SketchTwo(props) {
 
     for (let x = 0 + xdiv / 2; x < p5.width; x += xdiv) {
       for (let y = 0 + ydiv / 2; y < p5.height; y += ydiv) {
-        tiles.push([x, y, 10]);
+        tiles.push([x, y]);
       }
     }
 
@@ -41,9 +41,10 @@ function SketchTwo(props) {
   };
 
   const draw = (p5) => {
-    p5.background(255);
+    p5.clear();
     tiles.forEach((tile) => {
-      p5.circle(...tile);
+      let rad = p5.noise(tile[0] / 300, tile[1] / 300, t) * 40;
+      p5.circle(...tile, rad);
     });
     t += 0.005;
   };
