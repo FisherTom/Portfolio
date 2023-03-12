@@ -1,28 +1,43 @@
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import "../styles/project-grid.css";
-//import sketch from "../p5/blob.js";
-import { ReactP5Wrapper } from "react-p5-wrapper";
-import sketchTwo from "../p5/sketchTwo";
-import MySketch from "../p5/sketchTwo";
+
+import Sketch from "../p5/sketchTwo";
+import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <div id="projects">
       <h2>Projects</h2>
       <section className="grid-container">
+        <div className="grid-card">
+          <ProjectCard
+            title="Mushi App"
+            url="https://images.pexels.com/photos/6034382/pexels-photo-6034382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          />
+        </div>
         <div className="grid-card sketch-card">
-          <MySketch t={0}/>
+          <Sketch t={0} />
         </div>
-        <div id="card-d" className="grid-card"></div>
-        <div id="card-e" className="grid-card"></div>
-        <div id="card-f" className="grid-card two-tall sketch-card">
-        <MySketch t={20}/>
+        <div className="grid-card">
+          <ProjectCard
+            title="Board Game Buzz"
+            url="https://images.pexels.com/photos/8762806/pexels-photo-8762806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          />
         </div>
-        <div id="card-g" className="grid-card two-wide two-tall"></div>
-        <div id="card-h" className="grid-card"></div>
-        <div id="card-i" className="grid-card sketch-card">
-        <MySketch t={10}/>
+        <div className="grid-card two-tall sketch-card">
+          <Sketch t={20} />
         </div>
-        <div id="card-j" className="grid-card"></div>
+        <div className="grid-card two-wide two-tall">
+          <ProjectCard url={require("../images/plot.jpg")} />
+        </div>
+        <div className="grid-card">
+          <ProjectCard />
+        </div>
+        <div className="grid-card sketch-card">
+          <Sketch t={10} />
+        </div>
+        <div className="grid-card">
+          <ProjectCard />
+        </div>
       </section>
     </div>
   );

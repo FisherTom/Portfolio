@@ -37,7 +37,7 @@ function SketchTwo(props) {
       }
     }
 
-    p5.frameRate(10);
+    //p5.frameRate(10);
     p5.noStroke();
     p5.fill(225, 74, 212);
   };
@@ -45,10 +45,10 @@ function SketchTwo(props) {
   const draw = (p5) => {
     p5.clear();
     tiles.forEach((tile) => {
-      let n = p5.noise(tile[0] / 300, tile[1] / 300, t);
-      if (n > 0.4 && n < 0.5) {
+      let n = p5.noise(tile[0] / 100, tile[1] / 100, t);
+      if (n > 0.4) {
         //let rad = p5.noise(tile[0] / 300, tile[1] / 300, t) * 40;
-        p5.circle(...tile, div - 3);
+        p5.circle(...tile, p5.map(n, 0.4, 1, 0, 25));
       }
     });
     t += 0.005;
