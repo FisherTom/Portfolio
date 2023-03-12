@@ -10,15 +10,17 @@ function Projects() {
       <h2>Projects</h2>
       <section className="grid-container">
         <div className="grid-card sketch-card">
-          <MySketch />
+          <MySketch t={0}/>
         </div>
         <div id="card-d" className="grid-card"></div>
         <div id="card-e" className="grid-card"></div>
-        <div id="card-f" className="grid-card two-tall "></div>
+        <div id="card-f" className="grid-card two-tall sketch-card">
+        <MySketch t={20}/>
+        </div>
         <div id="card-g" className="grid-card two-wide two-tall"></div>
         <div id="card-h" className="grid-card"></div>
         <div id="card-i" className="grid-card sketch-card">
-        <MySketch />
+        <MySketch t={10}/>
         </div>
         <div id="card-j" className="grid-card"></div>
       </section>

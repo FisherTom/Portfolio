@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import Sketch from "react-p5";
 
 function SketchTwo(props) {
+  console.log(props.t);
   const canvasRef = useRef(null);
 
   const windowResized = (p5) => {
@@ -17,11 +18,11 @@ function SketchTwo(props) {
       }
     }
   };
-
-  let t = 0;
+  let div = 10;
+  let t = props.t;
   let tiles = [];
-  const xdiv = 20;
-  const ydiv = 20;
+  const xdiv = div;
+  const ydiv = div;
 
   const setup = (p5, canvasParentRef) => {
     const parentWidth = canvasParentRef.clientWidth;
@@ -36,15 +37,19 @@ function SketchTwo(props) {
       }
     }
 
+    p5.frameRate(10);
     p5.noStroke();
-    p5.fill(0);
+    p5.fill(225, 74, 212);
   };
 
   const draw = (p5) => {
     p5.clear();
     tiles.forEach((tile) => {
-      let rad = p5.noise(tile[0] / 300, tile[1] / 300, t) * 40;
-      p5.circle(...tile, rad);
+      let n = p5.noise(tile[0] / 300, tile[1] / 300, t);
+      if (n > 0.4 && n < 0.5) {
+        //let rad = p5.noise(tile[0] / 300, tile[1] / 300, t) * 40;
+        p5.circle(...tile, div - 3);
+      }
     });
     t += 0.005;
   };
