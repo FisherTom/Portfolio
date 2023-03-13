@@ -1,5 +1,4 @@
 import Bio from "./components/Bio";
-import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import "./styles/App.css";

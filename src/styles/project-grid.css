@@ -1,5 +1,5 @@
 #projects {
-  padding: 6rem;
+  padding: 4rem;
 }
 #projects > h2 {
   text-align: left;
@@ -30,7 +30,6 @@
 }
 .grid-card {
   position: relative;
-  /* background-color: rgba(245, 245, 245, 0.2); */
   border-radius: 5px;
   overflow: hidden;
 }
@@ -47,14 +46,17 @@
   top: 0;
   left: 0;
   object-fit: cover;
+  object-position: right bottom;
   width: 100%;
-  opacity: 0.7;
 }
 .project-title {
+  padding: 1rem;
+  padding-left: 2rem;
   margin: 1rem;
+  margin-left: 0;
   text-align: left;
   color: rgb(18, 18, 18);
-
+  background-color: rgba(240, 248, 255, 0.5);
   font-size: 3em;
   font-weight: 600;
   font-style: italic;
@@ -68,4 +70,46 @@
 }
 .grid-card:hover .project-card {
   bottom: 100%;
+}
+.project-info {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-info-img {
+  margin: 1rem;
+  flex: 1;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 3px 3px 20px;
+}
+.project-info-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+  font-size: 0.9rem;
+  text-align: left;
+  padding: 1rem;
+  width: 50%;
+}
+
+.icon-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.more-info-button {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  background-color: rgb(65, 65, 65);
+  box-shadow: 0 0 10px rgb(54, 54, 54);
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.more-info-button:hover {
+  border: 2px solid rgb(225, 74, 212);
+  box-shadow: 0 0 10px rgb(225, 74, 212);
 }
