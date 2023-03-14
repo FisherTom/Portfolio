@@ -1,0 +1,36 @@
+.project-page {
+  display: flex;
+  flex-direction: column;
+}
+.project-page-content-box {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  gap: 4rem;
+}
+.project-page-pic-box {
+  max-width: fit-content;
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+.project-page-pic-box > img {
+  display: block;
+
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 50px;
+}
+@media (min-width: 450px) {
+  .project-page-pic-box {
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
+  }
+}
+
+.project-page-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
