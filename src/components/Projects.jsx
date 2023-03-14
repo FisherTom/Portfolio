@@ -40,9 +40,7 @@ function Projects() {
             <SiFirebase />
           </ProjectInfo>
         </div>
-        <div className="grid-card sketch-card">
-          <Sketch t={0} />
-        </div>
+
         <div className="grid-card">
           <ProjectCard
             title="Game Review Site"
@@ -60,9 +58,7 @@ function Projects() {
             <SiExpress />
           </ProjectInfo>
         </div>
-        <div className="grid-card two-tall sketch-card">
-          <Sketch t={20} />
-        </div>
+
         <div className="grid-card two-wide two-tall">
           <ProjectCard title="Code Art" url={require("../images/plot.jpg")} />
           <ProjectInfo
@@ -85,9 +81,7 @@ function Projects() {
             <SiReact />
           </ProjectInfo>
         </div>
-        <div className="grid-card sketch-card">
-          <Sketch t={10} />
-        </div>
+
         <div className="grid-card">
           <ProjectCard
             title="Other Projects"
@@ -96,6 +90,9 @@ function Projects() {
           <ProjectInfo>
             <FaHammer />
           </ProjectInfo>
+        </div>
+        <div className="sketch-card">
+          <Sketch t={20} />
         </div>
       </section>
     </div>
