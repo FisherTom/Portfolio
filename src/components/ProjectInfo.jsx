@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ProjectInfo(props) {
   console.log(props.img);
@@ -8,7 +9,9 @@ function ProjectInfo(props) {
       <div className="project-info-description">
         <p>{props.description}</p>
         <div className="icon-box">{props.children}</div>
-        <button className="more-info-button">More Info</button>
+        <Link to={props.link}>
+          <button className="more-info-button">More Info</button>
+        </Link>
       </div>
     </div>
   );
