@@ -4,7 +4,7 @@ import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 function Bio() {
   return (
     <div id="bio-box">
-      <img id="headshot" src={require("../images/me.png")} alt="Tom Fisher" />
+      <img id="headshot" src={require("../images/pxl.png")} alt="Tom Fisher" />
       <div className="bio-and-icons">
         <p>
           I am a creative, driven junior full-stack developer looking to secure
