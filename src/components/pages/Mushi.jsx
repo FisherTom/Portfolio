@@ -38,9 +38,38 @@ function Mushi() {
         <div className="project-page-info">
           <h2 className="project-page-title">Mushi App</h2>
           <p className="project-page-text">
-            sahdfiasujhdfioljashf piuaspf ufpu aspfu awef efpa aspu apifu asduf
-            saduf poiasu dfos fdoisa pd ofis aj ofisa odfi soi f
+            Mushi is a mobile app designed to help people find and identify wild
+            mushrooms. This was completed as a final project during the
+            Northcoders Full-stack development boot camp. Mushi was created
+            using React Native and Expo, It makes use of an API created during
+            the same project.
+            <br />
+            <br />
+            App users can report sightings of mushrooms and provide a location,
+            picture, a description and the species they believe the mushroom to
+            be. Users are then able to browse reports from other users via the
+            map screen, here users can filter results by species. Viewing a
+            report users can vote for a species they believe the mushroom to be,
+            the back-end will set the species assigned to the report to the
+            species with the highest votes automatically. The back-end also
+            calculates a species credibility score based on the number of votes
+            for the assigned species and the number of conflicting votes. The
+            app makes use of Firebase for secure user authorization and blob
+            storage.
           </p>
+          <h3>Links</h3>
+          <h4>
+            Frontend Repo:{" "}
+            <a href="https://github.com/FisherTom/portfolio-mushi-api">
+              github.com/FisherTom/portfolio-mushi-api
+            </a>
+          </h4>
+          <h4>
+            Backend Repo:{" "}
+            <a href="https://github.com/FisherTom/portfolio-mushi-api">
+              github.com/FisherTom/portfolio-mushi-api
+            </a>
+          </h4>
         </div>
       </div>
     </div>

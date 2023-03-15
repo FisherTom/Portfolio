@@ -1,5 +1,7 @@
 #hero {
-  display: flex;
+  /* display: flex; */
+
+  position: relative;
   padding: 4em;
 }
 .title-box {
@@ -25,33 +27,4 @@
   flex-grow: 1;
   margin-right: 2rem;
   border-radius: 5px;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.star {
-  animation: 7s rotate infinite;
-  animation-timing-function: linear;
-}
-
-.star {
-  margin-left: auto;
-  width: 100px;
-  height: 100px;
-  background: rgb(225, 74, 212);
-}
-.star:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 100px;
-  background: rgb(225, 74, 212);
-  transform: rotate(45deg);
 }

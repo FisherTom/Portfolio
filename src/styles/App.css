@@ -5,3 +5,34 @@
   text-align: center;
   color: rgb(18, 18, 20);
 }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.star {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  animation: 7s rotate infinite;
+  animation-timing-function: linear;
+}
+
+.star {
+  width: 100px;
+  height: 100px;
+  background: rgb(225, 74, 212);
+}
+.star:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: rgb(225, 74, 212);
+  transform: rotate(45deg);
+}

@@ -5,12 +5,13 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 2rem 8rem 2rem 8rem;
+  padding: 2rem 4rem 2rem 4rem;
 }
 .bio-and-icons {
   flex: 1;
 }
 .bio-and-icons > p {
+  min-width: 300px;
   font-size: 1.2rem;
   font-weight: 300;
   text-align: left;

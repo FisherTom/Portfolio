@@ -11,6 +11,7 @@ import "./styles/App.css";
 function App() {
   return (
     <div className="App">
+      <div className="star"></div>
       <Hero />
       <Routes>
         <Route path="/" element={<Home />} />
