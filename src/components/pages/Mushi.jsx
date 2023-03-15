@@ -60,8 +60,8 @@ function Mushi() {
           <h3>Links</h3>
           <h4>
             Frontend Repo:{" "}
-            <a href="https://github.com/FisherTom/portfolio-mushi-api">
-              github.com/FisherTom/portfolio-mushi-api
+            <a href="https://github.com/FisherTom/portfolio-mushi-front-end">
+              github.com/FisherTom/portfolio-mushi-front-end
             </a>
           </h4>
           <h4>
