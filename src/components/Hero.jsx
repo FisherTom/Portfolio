@@ -8,6 +8,7 @@ function Hero() {
         <h1 id="hero-title">Tom Fisher</h1>
         <h3>Developer - Designer</h3>
       </div>
+      <div className="star"></div>
     </div>
   );
 }

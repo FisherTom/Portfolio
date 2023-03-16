@@ -22,9 +22,15 @@ function Bio() {
           technical information with people from a range of backgrounds.
         </p>
         <div className="social-icons">
-          <SiGithub size={30} />
-          <SiLinkedin size={30} />
-          <SiInstagram size={30} />
+          <a href="https://github.com/FisherTom">
+            <SiGithub size={30} />
+          </a>
+          <a href="https://www.linkedin.com/in/thomas-fisher-098ab496/">
+            <SiLinkedin size={30} />
+          </a>
+          <a href="https://www.instagram.com/end.shape/">
+            <SiInstagram size={30} />
+          </a>
         </div>
       </div>
     </div>

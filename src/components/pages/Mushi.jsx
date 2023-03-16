@@ -1,4 +1,14 @@
 import React from "react";
+import {
+  SiExpo,
+  SiJavascript,
+  SiMongodb,
+  SiFirebase,
+  SiNodedotjs,
+  SiReact,
+  SiExpress,
+  SiJest,
+} from "react-icons/si";
 import { Link } from "react-router-dom";
 import "../../styles/projectPage.css";
 
@@ -70,6 +80,16 @@ function Mushi() {
               github.com/FisherTom/portfolio-mushi-api
             </a>
           </h4>
+          <div className="icon-box">
+            <SiJavascript size={30} />
+            <SiNodedotjs size={30} />
+            <SiReact size={30} />
+            <SiExpo size={30} />
+            <SiFirebase size={30} />
+            <SiMongodb size={30} />
+            <SiExpress size={30} />
+            <SiJest size={30} />
+          </div>
         </div>
       </div>
     </div>

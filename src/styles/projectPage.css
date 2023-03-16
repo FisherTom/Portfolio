@@ -6,15 +6,17 @@
   box-sizing: border-box;
   padding: 4rem;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
+  display: inline-flex;
+
   flex-wrap: wrap-reverse;
 
-  gap: 4rem;
+  gap: 2rem;
 }
 .project-page-pic-box {
-  flex: 1 1 45%;
+  flex: 0 1 45%;
+  max-width: 600px;
   display: flex;
+  justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -28,7 +30,7 @@
 .project-page-info {
   flex: 1 1 45%;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
@@ -42,7 +44,16 @@
   line-height: 1.2rem;
 }
 .project-page-info > h3 {
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 1.5em;
+  font-weight: 600;
   font-style: italic;
+}
+.icon-box {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
 }

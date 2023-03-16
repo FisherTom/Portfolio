@@ -36,3 +36,6 @@
   background: rgb(225, 74, 212);
   transform: rotate(45deg);
 }
+a:visited {
+  color: black;
+}
