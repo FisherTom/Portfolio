@@ -6,36 +6,25 @@
   color: rgb(18, 18, 20);
 }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+#job-buttons {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
-
-.star {
-  position: absolute;
-  right: 100px;
-  top: 50px;
-  animation: 7s rotate infinite;
-  animation-timing-function: linear;
+#job-buttons > a > button {
+  font-family: "Jost", sans-serif;
+  margin-left: 3rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(49, 49, 49);
+  box-shadow: 0 0 10px rgb(82, 82, 82);
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 1.5rem;
+  padding: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 1.5px solid rgb(225, 74, 212);
 }
-
-.star {
-  width: 100px;
-  height: 100px;
-  background: rgb(225, 74, 212);
-}
-.star:after {
-  content: "";
-  display: block;
-  width: 100px;
-  height: 100px;
-  background: rgb(225, 74, 212);
-  transform: rotate(45deg);
-}
-a:visited {
-  color: black;
+#job-buttons > a > button:hover {
+  box-shadow: 0 0 10px rgb(225, 74, 212);
 }

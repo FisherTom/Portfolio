@@ -1,5 +1,6 @@
 #projects {
   padding: 4rem;
+  padding-top: 0;
 }
 #projects > h2 {
   margin: 1rem;
@@ -103,7 +104,8 @@
 }
 
 .more-info-button {
-  font-weight: 900;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
   color: rgb(255, 255, 255);
   background-color: rgb(65, 65, 65);
   box-shadow: 0 0 10px rgb(0, 0, 0);
