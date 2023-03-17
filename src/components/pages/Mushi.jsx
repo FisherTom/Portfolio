@@ -49,24 +49,33 @@ function Mushi() {
           <h2 className="project-page-title">Mushi App</h2>
           <p className="project-page-text">
             Mushi is a mobile app designed to help people find and identify wild
-            mushrooms. This was completed as a final project during the
-            Northcoders Full-stack development boot camp. Mushi was created
-            using React Native and Expo, It makes use of an API created during
-            the same project.
+            mushrooms. The aplication uses the MERN stack and was completed as a
+            final project during the Northcoders Full-stack development boot
+            camp.
             <br />
             <br />
-            App users can report sightings of mushrooms and provide a location,
-            picture, a description and the species they believe the mushroom to
-            be. Users are then able to browse reports from other users via the
-            map screen, here users can filter results by species. Viewing a
-            report users can vote for a species they believe the mushroom to be,
-            the back-end will set the species assigned to the report to the
-            species with the highest votes automatically. The back-end also
-            calculates a species credibility score based on the number of votes
-            for the assigned species and the number of conflicting votes. The
-            app makes use of Firebase for secure user authorization and blob
-            storage.
+            Users can submit mushroom sightings providing a location, picture, a
+            description and the species they believe the mushroom to be. Users
+            are then able to browse sightings via the map screen, filtering
+            results by species.
+            <br />
+            <br />
+            On the mushroom sighting screen users can vote for a species they
+            believe the mushroom to be, the back-end will set the species
+            assigned to the sighting to the species with the highest votes
+            automatically. The back-end also calculates a species credibility
+            score based on the number of votes for the assigned species and the
+            number of conflicting votes.
           </p>
+          <h3>Front-end:</h3>
+          The front end was built using React Native and Expo. It uses built in
+          functionality of React Native for user location, maps, taking /
+          selecting images. Firebase is used for secure user authentication and
+          cloud storage of user generated content.
+          <h3>Back-end:</h3>
+          The database was made using MongoDB to store data about sightings and
+          mushroom species info. HTTP requests are handled by Express,
+          integration tests were written for all endpoints using Jest.
           <h3>Links</h3>
           <h4>
             Frontend Repo:{" "}

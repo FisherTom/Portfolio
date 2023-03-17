@@ -5,7 +5,7 @@ import Mushi from "./components/pages/Mushi";
 import GameReviews from "./components/pages/GameReviews";
 import CodeArt from "./components/pages/CodeArt";
 import BeerFrontend from "./components/pages/BeerFrontend";
-
+import Contact from "./components/pages/Contact";
 import "./styles/App.css";
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Route path="/game-review-app" element={<GameReviews />} />
         <Route path="/brewdog-frontend" element={<BeerFrontend />} />
         <Route path="/code-art" element={<CodeArt />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

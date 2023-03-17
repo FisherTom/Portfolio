@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Bio from "../Bio";
 import Projects from "../Projects";
 
@@ -10,9 +11,9 @@ function Home() {
         <a href="https://fishertom.github.io/cv/">
           <button>View CV</button>
         </a>
-        <a href="tfisher92@gmail.com">
+        <Link to="/contact">
           <button>Contact</button>
-        </a>
+        </Link>
       </div>
       <Projects />
     </div>
