@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Sketch from "react-p5";
 
 function SketchTwo(props) {
-  console.log(props.t);
   const canvasRef = useRef(null);
 
   const windowResized = (p5) => {

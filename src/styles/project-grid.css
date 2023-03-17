@@ -4,6 +4,7 @@
 }
 #projects > h2 {
   margin: 1rem;
+  margin-top: 0;
   font-style: italic;
   text-align: left;
   font-size: 2rem;
@@ -15,7 +16,6 @@
   grid-auto-rows: 300px;
   gap: 1rem;
 }
-
 .grid-card {
   min-width: 300px;
   height: 300px;

@@ -5,26 +5,3 @@
   text-align: center;
   color: rgb(18, 18, 20);
 }
-
-#job-buttons {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-#job-buttons > a > button {
-  font-family: "Jost", sans-serif;
-  margin-left: 3rem;
-  font-weight: 400;
-  font-size: 1.2rem;
-  color: white;
-  background-color: rgb(49, 49, 49);
-  box-shadow: 0 0 10px rgb(82, 82, 82);
-  border: 2px solid rgba(0, 0, 0, 0);
-  border-radius: 1.5rem;
-  padding: 0.25rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  border: 1.5px solid rgb(225, 74, 212);
-}
-#job-buttons > a > button:hover {
-  box-shadow: 0 0 10px rgb(225, 74, 212);
-}

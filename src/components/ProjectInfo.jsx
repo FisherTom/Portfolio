@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function ProjectInfo(props) {
-  console.log(props.img);
   return (
     <div className="project-info">
       {/* <img className="project-info-img" src={props.img} alt="" /> */}
