@@ -5,11 +5,16 @@
   position: relative;
   padding: 4em;
 }
-
+.title-portrait {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
 .title-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   font-family: "Jost", sans-serif;
   font-weight: 700;
   font-style: italic;

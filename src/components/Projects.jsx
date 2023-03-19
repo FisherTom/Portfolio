@@ -59,11 +59,12 @@ function Projects() {
           </ProjectInfo>
         </div>
 
-        <div className="grid-card two-wide two-tall">
+        <div className="grid-card ">
           <ProjectCard title="Code Art" url={require("../images/plot.jpg")} />
           <ProjectInfo
             link="/code-art"
             img={require("../images/plotter.png")}
+            description="Code 'setches' made using P5.js, a 2D Javascript graphics library. I found this a to be a usefull tool while learning to code. I took some of the outputs and turned them into physical artworks using a pen plotter. "
           ></ProjectInfo>
         </div>
         <div className="grid-card">
@@ -74,7 +75,7 @@ function Projects() {
           <ProjectInfo
             link="/brewdog-frontend"
             img={require("../images/beer-screenshot.png")}
-            description="A single page Rect app, front end for Brewdogs free to use 'Punk API'"
+            description="A single page Rect app, front end for Brewdogs free to use 'Punk API'. The app allows users to search and sort the recipie catalouge by style, name, ingridients etc. recipies can be added to a compare list and more detailed info can be viewed by selecting any of the recipies. "
           >
             <SiJavascript />
             <SiNodedotjs />

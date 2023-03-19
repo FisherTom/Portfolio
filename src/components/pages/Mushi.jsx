@@ -15,9 +15,6 @@ import "../../styles/projectPage.css";
 function Mushi() {
   return (
     <div className="project-page">
-      <Link to="/">
-        <button>Home</button>
-      </Link>
       <div className="project-page-content-box">
         <div className="project-page-pic-box">
           <img
@@ -46,6 +43,9 @@ function Mushi() {
           />
         </div>
         <div className="project-page-info">
+          <Link to="/">
+            <button className="home-button">⬅ Back</button>
+          </Link>
           <h2 className="project-page-title">Mushi App</h2>
           <p className="project-page-text">
             Mushi is a mobile app designed to help people find and identify wild

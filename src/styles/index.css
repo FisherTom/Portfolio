@@ -91,6 +91,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  color: aliceblue;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -136,7 +137,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(215, 215, 215);
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   display: flex;
   justify-content: center;
 }
@@ -151,4 +165,5 @@ h2,
 h3,
 h4 {
   font-family: "Jost", sans-serif;
+  color: aliceblue;
 }

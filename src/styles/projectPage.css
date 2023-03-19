@@ -2,14 +2,38 @@
   display: flex;
   flex-direction: column;
 }
+.project-page > a {
+  display: flex;
+  margin-left: 4rem;
+}
+.home-button {
+  display: inline-block;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(82, 82, 82);
+  border: 2px solid rgba(0, 0, 0, 0);
+  border-radius: 1.5rem;
+  padding: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .project-page-content-box {
   box-sizing: border-box;
   padding: 4rem;
   width: 100%;
   display: inline-flex;
-
   flex-wrap: wrap-reverse;
-
+  gap: 2rem;
+}
+.sketch-page-content-box {
+  box-sizing: border-box;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 .project-page-pic-box {
@@ -19,6 +43,20 @@
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
+}
+.sketch-box {
+  width: 100%;
+  height: 400px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.gallery-img {
+  width: 30%;
+  min-width: 200px;
 }
 .project-page-pic-box > img {
   max-width: 100%;

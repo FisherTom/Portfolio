@@ -6,7 +6,7 @@ function BeerFrontend() {
   return (
     <div>
       <Link to="/">
-        <button>Home</button>
+        <button className="home-button">Home</button>
       </Link>
     </div>
   );

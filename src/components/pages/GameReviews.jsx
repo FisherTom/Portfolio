@@ -12,9 +12,6 @@ import "../../styles/projectPage.css";
 function GameReviews() {
   return (
     <div className="project-page">
-      <Link to="/">
-        <button>Home</button>
-      </Link>
       <div className="project-page-content-box">
         <div className="project-page-pic-box">
           <img src={require("../../images/bgb1.png")} alt="site home screen" />
@@ -22,6 +19,9 @@ function GameReviews() {
           <img src={require("../../images/bgb3.png")} alt="review page" />
         </div>
         <div className="project-page-info">
+          <Link to="/">
+            <button className="home-button">⬅ Back</button>
+          </Link>
           <h2 className="project-page-title">Board Game Review Site</h2>
           <p className="project-page-text">
             This is a single page CRUD app that alows users to share comment on
