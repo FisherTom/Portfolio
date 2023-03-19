@@ -38,6 +38,9 @@ function Bio() {
         <Link to="/contact">
           <button>Contact</button>
         </Link>
+        <Link to="/projects">
+          <button>Projects</button>
+        </Link>
       </div>
     </div>
   );

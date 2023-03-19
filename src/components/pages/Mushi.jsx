@@ -43,9 +43,6 @@ function Mushi() {
           />
         </div>
         <div className="project-page-info">
-          <Link to="/">
-            <button className="home-button">⬅ Back</button>
-          </Link>
           <h2 className="project-page-title">Mushi App</h2>
           <p className="project-page-text">
             Mushi is a mobile app designed to help people find and identify wild
@@ -68,14 +65,18 @@ function Mushi() {
             number of conflicting votes.
           </p>
           <h3>Front-end:</h3>
-          The front end was built using React Native and Expo. It uses built in
-          functionality of React Native for user location, maps, taking /
-          selecting images. Firebase is used for secure user authentication and
-          cloud storage of user generated content.
+          <p>
+            The front end was built using React Native and Expo. It uses built
+            in functionality of React Native for user location, maps, taking /
+            selecting images. Firebase is used for secure user authentication
+            and cloud storage of user generated content.
+          </p>
           <h3>Back-end:</h3>
-          The database was made using MongoDB to store data about sightings and
-          mushroom species info. HTTP requests are handled by Express,
-          integration tests were written for all endpoints using Jest.
+          <p>
+            The database was made using MongoDB to store data about sightings
+            and mushroom species info. HTTP requests are handled by Express,
+            integration tests were written for all endpoints using Jest.
+          </p>
           <h3>Links</h3>
           <h4>
             Frontend Repo:{" "}
@@ -99,6 +100,9 @@ function Mushi() {
             <SiExpress size={30} />
             <SiJest size={30} />
           </div>
+          <Link to="/projects">
+            <button className="home-button">Back to Projects</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@
   gap: 2rem;
   position: relative;
   padding: 4em;
+  padding-top: 2rem;
 }
 .title-portrait {
   display: flex;

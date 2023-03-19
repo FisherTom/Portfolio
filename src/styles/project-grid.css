@@ -70,9 +70,9 @@
 .project-info {
   /* background-color: rgba(36, 36, 36, 0.8); */
   background: radial-gradient(
-    circle at 24.1% 68.8%,
-    rgb(82, 82, 82) 0%,
-    rgb(22, 22, 22) 99.4%
+    circle at 20% 88%,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(131, 131, 131, 0.3) 85.4%
   );
 
   color: aliceblue;

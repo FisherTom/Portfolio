@@ -1,11 +1,10 @@
 import React from "react";
-
-import Projects from "../Projects";
+import Bio from "../Bio";
 
 function Home() {
   return (
     <div>
-      <Projects />
+      <Bio />
     </div>
   );
 }

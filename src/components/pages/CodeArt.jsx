@@ -7,9 +7,6 @@ import Sketch from "../../p5/sketchTwo";
 function CodeArt() {
   return (
     <div className="project-page">
-      <Link to="/">
-        <button className="home-button">⬅ Back</button>
-      </Link>
       <div className="sketch-page-content-box">
         <div className="sketch-box">
           <Sketch t={20} />
@@ -44,10 +41,9 @@ function CodeArt() {
               fishertom.github.io/P5_sketches/
             </a>
           </h4>
-
-          <div className="icon-box">
-            <SiJavascript size={30} />
-          </div>
+          <Link to="/projects">
+            <button className="home-button">Back to projects</button>
+          </Link>
           <div className="gallery">
             <img
               className="gallery-img"
