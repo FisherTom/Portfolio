@@ -1,5 +1,4 @@
 import React from "react";
-import { SiJavascript } from "react-icons/si";
 import { Link } from "react-router-dom";
 import "../../styles/projectPage.css";
 import Sketch from "../../p5/sketchTwo";
