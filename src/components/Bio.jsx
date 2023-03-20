@@ -6,41 +6,57 @@ function Bio() {
   return (
     <div id="bio-box">
       <p>
-        I am a creative, driven junior full-stack developer looking to secure my
-        first tech role. I am currently enrolled on an intensive full-stack
-        development course with Northcoders and have been self teaching web
-        technologies for roughly a year. Prior to this I have experience with
-        coding embedded micro-controller type projects using Python, I do this
-        as a hobby and more recently as part of my job at Design Futures. I have
-        taken the decision to change careers to pursue my interest in coding. I
-        have found the process of learning new technologies extremely rewarding
-        and I am motivated to continue to expand my knowledge in a professional
-        role. Coming from a design background I feel I have strong creative
-        problem solving skills, and having worked within technical teams and for
-        consultancies I am able to communicate technical information with people
-        from a range of backgrounds.
+        <h2>Hello World...</h2>I am a junior developer currently seeking
+        front-end full-stack job opportunities. I have recently completed an
+        intensive full-stack software development boot camp with Northcoders and
+        have been self-teaching web technologies for roughly a year.
+        <br />
+        <br />
+        My time at Northcoders has given me a strong foundation in JavaScript
+        (ES6), HTML, and CSS as well as experience in writing end-to-end web and
+        mobile applications using technologies including Node.js, React / React
+        Native, PSQL, MongoDB, and more.
+        <br />
+        <br />
+        The course put a strong emphasis on best practices including Test-Driven
+        Development, agile methodology, and Git Flow. I have loved the
+        experience of learning to code so far and I'm now excited to find
+        opportunities that will allow me to continue to grow my skill set.
+        <br />
+        <br />I come from a design / engineering background and have strong
+        communication and creative problem-solving skills. I am committed to
+        making a career change into tech and welcome approaches from recruiters
+        and hiring partners.
       </p>
-      <div className="social-icons">
-        <a href="https://github.com/FisherTom">
-          <SiGithub size={30} />
-        </a>
-        <a href="https://www.linkedin.com/in/thomas-fisher-098ab496/">
-          <SiLinkedin size={30} />
-        </a>
-        <a href="https://www.instagram.com/end.shape/">
-          <SiInstagram size={30} />
-        </a>
-      </div>
+
       <div id="job-buttons">
+        <Link to="/projects">
+          <div className="homepage-button">
+            <p>Projects</p>
+          </div>
+        </Link>
         <a href="https://fishertom.github.io/cv/">
-          <button>View CV</button>
+          <div className="homepage-button">
+            <p>View CV</p>
+          </div>
         </a>
         <Link to="/contact">
-          <button>Contact</button>
+          <div className="homepage-button">
+            <p>Contact</p>
+          </div>
         </Link>
-        <Link to="/projects">
-          <button>Projects</button>
-        </Link>
+      </div>
+
+      <div className="social-icons">
+        <a href="https://github.com/FisherTom">
+          <SiGithub size={40} />
+        </a>
+        <a href="https://www.linkedin.com/in/thomas-fisher-098ab496/">
+          <SiLinkedin size={40} />
+        </a>
+        <a href="https://www.instagram.com/end.shape/">
+          <SiInstagram size={40} />
+        </a>
       </div>
     </div>
   );

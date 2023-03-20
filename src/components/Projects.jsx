@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/project-grid.css";
-
 import Sketch from "../p5/sketchTwo";
 import ProjectCard from "./ProjectCard";
 import ProjectInfo from "./ProjectInfo";
 import {
+  SiGithub,
+  SiInstagram,
+  SiLinkedin,
   SiJavascript,
   SiMongodb,
   SiFirebase,
@@ -14,8 +16,6 @@ import {
   SiPostgresql,
   SiExpress,
 } from "react-icons/si";
-
-import { FaHammer } from "react-icons/fa";
 
 function Projects() {
   return (
@@ -74,7 +74,7 @@ function Projects() {
           <ProjectInfo
             link="/brewdog-frontend"
             img={require("../images/beer-screenshot.png")}
-            description="A single page Rect app, front end for Brewdogs free to use 'Punk API'. The app allows users to search and sort the recipie catalouge by style, name, ingridients etc. recipies can be added to a compare list and more detailed info can be viewed by selecting any of the recipies. "
+            description="A single page Rect app, front end for Brewdogs free to use 'Punk API'. The app allows users to search and sort the recipie catalouge, recipies can be added to a compare list and more detailed info can be viewed by selecting any of the recipies. "
           >
             <SiJavascript />
             <SiNodedotjs />
@@ -87,14 +87,27 @@ function Projects() {
             title="Other Projects"
             url={require("../images/workbench.jpg")}
           />
-          <ProjectInfo>
-            <FaHammer />
-          </ProjectInfo>
+          <ProjectInfo
+            description="I have done a number of microcontroller / IOT projects in the past, before I had a propper apriciation of good documentation... More comming soon!!!"
+            button="disabled"
+          ></ProjectInfo>
         </div>
         <div className="sketch-card">
           <Sketch t={20} />
         </div>
       </section>
+
+      <div className="social-icons">
+        <a href="https://github.com/FisherTom">
+          <SiGithub size={40} />
+        </a>
+        <a href="https://www.linkedin.com/in/thomas-fisher-098ab496/">
+          <SiLinkedin size={40} />
+        </a>
+        <a href="https://www.instagram.com/end.shape/">
+          <SiInstagram size={40} />
+        </a>
+      </div>
     </div>
   );
 }

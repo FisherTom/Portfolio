@@ -8,9 +8,13 @@ function ProjectInfo(props) {
       <div className="project-info-description">
         <p>{props.description}</p>
         <div className="icon-box">{props.children}</div>
-        <Link to={props.link}>
-          <button className="more-info-button">More Info</button>
-        </Link>
+        {props.button !== "disabled" ? (
+          <Link to={props.link}>
+            <button className="more-info-button">More Info</button>
+          </Link>
+        ) : (
+          <></>
+        )}
       </div>
     </div>
   );

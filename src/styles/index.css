@@ -166,3 +166,9 @@ h4 {
   font-family: "Jost", sans-serif;
   color: rgb(255, 255, 255);
 }
+a {
+  color: rgb(228, 39, 235);
+}
+a:visited {
+  color: rgb(228, 39, 235);
+}

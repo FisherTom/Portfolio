@@ -13,31 +13,36 @@ function CodeArt() {
         <div className="project-page-info">
           <h2 className="project-page-title">Code Art</h2>
           <p className="project-page-text">
-            Mushi is a mobile app designed to help people find and identify wild
-            mushrooms. The aplication uses the MERN stack and was completed as a
-            final project during the Northcoders Full-stack development boot
-            camp.
+            While learning to code i became interested in P5.Js a Javascript
+            library that uses the HTML canvas API to draw 2d graphics. I found
+            this a usefull tool in learning several coding principals such as
+            OOP and recursion.
+            <br />
+            <br />I liked the outputs i could create using P5 and wanted to turn
+            them into phisical prints. I designed and built a pen plotter using
+            an Arduino microcontroller to interpret Gcode using{" "}
+            <a href="https://github.com/grbl/grbl">GRBL</a>. I was able to
+            export images as SVG files from P5 that could then be sent to the
+            pen plotter.
             <br />
             <br />
-            Users can submit mushroom sightings providing a location, picture, a
-            description and the species they believe the mushroom to be. Users
-            are then able to browse sightings via the map screen, filtering
-            results by species.
-            <br />
-            <br />
-            On the mushroom sighting screen users can vote for a species they
-            believe the mushroom to be, the back-end will set the species
-            assigned to the sighting to the species with the highest votes
-            automatically. The back-end also calculates a species credibility
-            score based on the number of votes for the assigned species and the
-            number of conflicting votes.
+            As my coding abilities improved the outputs i could achieve became
+            more complex, I started an{" "}
+            <a href="https://www.instagram.com/end.shape/">Instagram</a> account
+            to showcase the work i created in P5.
           </p>
 
           <h3>Links</h3>
           <h4>
-            Frontend Repo:{" "}
+            Live Demo:
             <a href="https://fishertom.github.io/P5_sketches/">
               fishertom.github.io/P5_sketches/
+            </a>
+          </h4>
+          <h4>
+            P5 projects Repo:
+            <a href="https://github.com/FisherTom/P5_sketches">
+              github.com/FisherTom/P5_sketches
             </a>
           </h4>
           <Link to="/projects">

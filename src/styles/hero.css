@@ -29,10 +29,6 @@
   font-size: 3em;
 }
 
-a:visited {
-  color: black;
-}
-
 .star {
   position: absolute;
   animation: 15s rotate infinite;

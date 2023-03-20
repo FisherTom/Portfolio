@@ -2,19 +2,31 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   text-align: left;
   gap: 2rem;
-  padding: 4rem;
+  padding: 0rem 4rem;
   font-size: 1.5rem;
   font-weight: 300;
 }
+#bio-box > p > h2 {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
+#bio-box > p {
+  max-width: 1000px;
+}
 
 .social-icons {
+  width: 100%;
   padding: 1rem;
   display: flex;
+  justify-content: center;
   gap: 1rem;
+}
+.social-icons > a {
+  color: rgb(133, 209, 216);
 }
 #headshot-box {
   position: relative;
@@ -29,23 +41,32 @@
 }
 
 #job-buttons {
+  width: 100%;
   display: flex;
+  justify-content: center;
   gap: 1em;
+  flex-wrap: wrap;
+}
+#job-buttons > a {
+  text-decoration: none;
 }
 
-#job-buttons > a > button {
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  color: white;
-  background-color: rgb(0, 0, 0);
-  box-shadow: 0 0 10px rgb(82, 82, 82);
-  border: 2px solid rgba(0, 0, 0, 0);
-  border-radius: 1.5rem;
-  padding: 0.25rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+.homepage-button {
+  display: flex;
+  padding: 0.5em 1em;
+  background: linear-gradient(0deg, #203a43, transparent) #203a43;
+
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1s;
+
+  border-radius: 10px;
+  border: 2px solid rgb(133, 209, 216);
 }
-#job-buttons > a > button:hover {
-  box-shadow: 0 0 10px rgb(225, 74, 212);
+.homepage-button > p {
+  font-weight: 400;
+}
+.homepage-button:hover {
+  background-color: rgb(133, 209, 216);
+  color: #fff;
 }
