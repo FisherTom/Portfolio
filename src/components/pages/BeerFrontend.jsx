@@ -9,8 +9,9 @@ function BeerFrontend() {
       <div className="project-page-content-box">
         <div className="project-page-pic-box">
           <img
-            src="https://github.com/FisherTom/data-vis-sprint/blob/main/screenshots/screenshot.png?raw=true"
-            alt="app home screen"
+            src="https://i.ibb.co/PN5xfqY/beer-screenshot.png"
+            alt="beer-screenshot"
+            border="0"
           />
         </div>
         <div className="project-page-info">

@@ -14,9 +14,12 @@ function GameReviews() {
     <div className="project-page">
       <div className="project-page-content-box">
         <div className="project-page-pic-box">
-          <img src={require("../../images/bgb1.png")} alt="site home screen" />
-          <img src={require("../../images/bgb2.png")} alt="site review list" />
-          <img src={require("../../images/bgb3.png")} alt="review page" />
+          <img src="https://i.ibb.co/3y1xhXp/bgb1.png" alt="home screen" />
+          <img
+            src="https://i.ibb.co/4J3BZLV/bgb2.png"
+            alt="search reviews screen"
+          />
+          <img src="https://i.ibb.co/n1HP8Pw/bgb3.png" alt="review screen" />
         </div>
         <div className="project-page-info">
           <h2 className="project-page-title">Board Game Review Site</h2>

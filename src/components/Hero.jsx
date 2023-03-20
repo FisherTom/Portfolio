@@ -14,7 +14,7 @@ function Hero() {
           <div className="star"></div>
           <img
             id="headshot"
-            src={require("../images/pxl.png")}
+            src={"https://i.ibb.co/fGf2wYK/pxl.png"}
             alt="Tom Fisher"
           />
         </div>

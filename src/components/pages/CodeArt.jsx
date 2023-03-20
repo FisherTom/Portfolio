@@ -51,18 +51,21 @@ function CodeArt() {
           <div className="gallery">
             <img
               className="gallery-img"
-              src="https://github.com/FisherTom/P5_sketches/blob/main/images/1.jpg?raw=true"
-              alt="app home screen"
+              src="https://i.ibb.co/FWRYtGZ/1.jpg"
+              alt="1"
+              border="0"
             />
             <img
               className="gallery-img"
-              src="https://github.com/FisherTom/P5_sketches/blob/main/images/2.jpg?raw=true"
-              alt="app home screen"
+              src="https://i.ibb.co/xYpnQq8/2.jpg"
+              alt="2"
+              border="0"
             />
             <img
               className="gallery-img"
-              src="https://github.com/FisherTom/P5_sketches/blob/main/images/3.jpg?raw=true"
-              alt="app home screen"
+              src="https://i.ibb.co/8Kt17DF/3.jpg"
+              alt="3"
+              border="0"
             />
           </div>
         </div>

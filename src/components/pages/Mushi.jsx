@@ -18,28 +18,28 @@ function Mushi() {
       <div className="project-page-content-box">
         <div className="project-page-pic-box">
           <img
-            src="https://github.com/FisherTom/portfolio-mushi-front-end/blob/main/screenshots/Screenshot_20230308-111907.jpg?raw=true"
-            alt="app home screen"
+            src="https://i.ibb.co/nLNHphp/Screenshot-20230308-111907.jpg"
+            alt="home screen"
           />
           <img
-            src="https://github.com/FisherTom/portfolio-mushi-front-end/blob/main/screenshots/Screenshot_20230308-111819.jpg?raw=true"
-            alt="app add report screen"
+            src="https://i.ibb.co/THw5Cgv/Screenshot-20230308-111854.jpg"
+            alt="map screen"
           />
           <img
-            src="https://github.com/FisherTom/portfolio-mushi-front-end/blob/main/screenshots/Screenshot_20230308-111854.jpg?raw=true"
-            alt="app map  screen"
+            src="https://i.ibb.co/vxc0rLK/Screenshot-20230308-111819.jpg"
+            alt="add report screen"
           />
           <img
-            src="https://github.com/FisherTom/portfolio-mushi-front-end/blob/main/screenshots/Screenshot_20230308-112027.jpg?raw=true"
-            alt="app map screen"
+            src="https://i.ibb.co/WcjWGyn/Screenshot-20230308-112027.jpg"
+            alt="map card screen"
           />
           <img
-            src="https://github.com/FisherTom/portfolio-mushi-front-end/blob/main/screenshots/Screenshot_20230308-112038.jpg?raw=true"
-            alt="app report"
+            src="https://i.ibb.co/dWtx84Y/Screenshot-20230308-112038.jpg"
+            alt="view report screen"
           />
           <img
-            src="https://github.com/FisherTom/portfolio-mushi-front-end/blob/main/screenshots/Screenshot_20230308-111914.jpg?raw=true"
-            alt="app mushroom info screen"
+            src="https://i.ibb.co/9HFhg2F/Screenshot-20230308-111914.jpg"
+            alt="mushroom info screen"
           />
         </div>
         <div className="project-page-info">
