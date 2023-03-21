@@ -25,33 +25,15 @@
   left: 0;
   bottom: 0;
   width: 99%;
-  background-color: rgb(40, 44, 52);
-  opacity: 0.5;
-  color: white;
+  background-color: rgba(220, 220, 220, 0.4);
+  height: 0.5rem;
+  color: rgb(0, 0, 0);
   padding: 0.5rem;
   text-align: center;
+  font-size: 0.8rem;
   z-index: 100;
 }
-/* .button {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5em 1em;
-  background-color: rgb(206, 250, 231);
-  transition: background-color 0.5s;
-  color: black;
-  border-radius: 10px;
-}
-.button > p {
-  font-weight: 400;
-  padding: 0;
-}
-.button:hover {
-  background-color: rgb(177, 241, 232);
-}
- */
 
-/* CSS */
 .button {
   background-image: linear-gradient(
     92.88deg,

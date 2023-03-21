@@ -7,10 +7,10 @@ function Bio() {
   return (
     <div id="bio-box">
       <p>
-        <h2>Hello World...</h2>I am a junior developer currently seeking
-        front-end full-stack job opportunities. I have recently completed an
-        intensive full-stack software development boot camp with Northcoders and
-        have been self-teaching web technologies for roughly a year.
+        I am a junior developer currently seeking front-end and full-stack job
+        opportunities. I have recently completed an intensive full-stack
+        software development boot camp with Northcoders and have been
+        self-teaching web technologies for roughly a year.
         <br />
         <br />
         My time at Northcoders has given me a strong foundation in JavaScript
