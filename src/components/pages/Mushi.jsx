@@ -46,8 +46,8 @@ function Mushi() {
           <h2 className="project-page-title">Mushi App</h2>
           <p className="project-page-text">
             Mushi is a mobile app designed to help people find and identify wild
-            mushrooms. The aplication uses the MERN stack and was completed as a
-            final project during the Northcoders Full-stack development boot
+            mushrooms. The application uses the MERN stack and was completed as
+            a final project during the Northcoders Full-stack development boot
             camp.
             <br />
             <br />

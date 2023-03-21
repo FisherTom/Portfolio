@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/bio.css";
 import { Link } from "react-router-dom";
+
 import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 function Bio() {
   return (
@@ -31,18 +32,8 @@ function Bio() {
 
       <div id="job-buttons">
         <Link to="/projects">
-          <div className="homepage-button">
-            <p>Projects</p>
-          </div>
-        </Link>
-        <a href="https://fishertom.github.io/cv/">
-          <div className="homepage-button">
-            <p>View CV</p>
-          </div>
-        </a>
-        <Link to="/contact">
-          <div className="homepage-button">
-            <p>Contact</p>
+          <div className="button">
+            <p>View Projects</p>
           </div>
         </Link>
       </div>

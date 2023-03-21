@@ -19,6 +19,7 @@
 }
 
 .social-icons {
+  margin: 2rem 0;
   width: 100%;
   padding: 1rem;
   display: flex;
@@ -26,16 +27,16 @@
   gap: 1rem;
 }
 .social-icons > a {
-  color: rgb(133, 209, 216);
+  color: rgb(0, 0, 0);
 }
 #headshot-box {
   position: relative;
-  height: 250px;
-  width: 250px;
+  height: 220px;
+  width: 220px;
 }
 #headshot {
-  height: 250px;
-  width: 250px;
+  height: 220px;
+  width: 220px;
   border-radius: 50%;
   box-shadow: 5px 3px 30px rgb(67, 67, 67);
 }
@@ -49,24 +50,4 @@
 }
 #job-buttons > a {
   text-decoration: none;
-}
-
-.homepage-button {
-  display: flex;
-  padding: 0.5em 1em;
-  background: linear-gradient(0deg, #203a43, transparent) #203a43;
-
-  color: #fff;
-  text-decoration: none;
-  transition: background-color 1s;
-
-  border-radius: 10px;
-  border: 2px solid rgb(133, 209, 216);
-}
-.homepage-button > p {
-  font-weight: 400;
-}
-.homepage-button:hover {
-  background-color: rgb(133, 209, 216);
-  color: #fff;
 }

@@ -99,6 +99,7 @@
 }
 
 .icon-box {
+  color: black;
   display: flex;
   gap: 1rem;
 }

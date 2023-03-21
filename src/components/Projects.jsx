@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/project-grid.css";
-import Sketch from "../p5/sketchTwo";
+
 import ProjectCard from "./ProjectCard";
 import ProjectInfo from "./ProjectInfo";
 import {
@@ -63,7 +63,7 @@ function Projects() {
           />
           <ProjectInfo
             link="/code-art"
-            description="Code 'setches' made using P5.js, a 2D Javascript graphics library. I found this a to be a usefull tool while learning to code. I took some of the outputs and turned them into physical artworks using a pen plotter. "
+            description="Code 'sketches' made using p5.js, a 2D JavaScript graphics library. I found this to be a useful tool while learning to code. I took some of the outputs and turned them into physical artworks using a pen plotter. "
           ></ProjectInfo>
         </div>
         <div className="grid-card">
@@ -73,7 +73,7 @@ function Projects() {
           />
           <ProjectInfo
             link="/brewdog-frontend"
-            description="A single page Rect app, front end for Brewdogs free to use 'Punk API'. The app allows users to search and sort the recipie catalouge, recipies can be added to a compare list and more detailed info can be viewed by selecting any of the recipies. "
+            description="A single-page React app, front-end for Brewdog's free-to-use 'Punk API'. The app allows users to search and sort the recipe catalogue, recipes can be added to a compare list and more detailed info can be viewed by selecting any of the recipes. "
           >
             <SiJavascript />
             <SiNodedotjs />
@@ -87,12 +87,9 @@ function Projects() {
             url={"https://i.ibb.co/jyPHPkM/workbench.jpg"}
           />
           <ProjectInfo
-            description="I have done a number of microcontroller / IOT projects in the past, before I had a propper apriciation of good documentation... More comming soon!!!"
+            description="I have done a number of microcontroller/IoT projects in the past, before I had a proper appreciation of good documentation... More coming soon!!!"
             button="disabled"
           ></ProjectInfo>
-        </div>
-        <div className="sketch-card">
-          <Sketch t={20} />
         </div>
       </section>
 

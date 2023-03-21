@@ -32,9 +32,6 @@ const ContactForm = () => {
       method="POST"
       target="_blank"
     >
-      <Link to="/">
-        <button className="home-button">⬅ Back</button>
-      </Link>
       <div className="form-details">
         <input
           className="form-input"
@@ -60,7 +57,7 @@ const ContactForm = () => {
       </div>
 
       <div>
-        <button className="form-button" type="submit">
+        <button className="button" type="submit" style={{ border: 0 }}>
           Send a message
         </button>
       </div>
