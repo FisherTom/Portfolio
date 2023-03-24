@@ -29,6 +29,15 @@
   font-size: 3em;
 }
 
+.seeking {
+  z-index: 100;
+  position: absolute;
+  left: 6px;
+  top: 20px;
+  font-weight: 600;
+  color: white;
+}
+
 .star {
   position: absolute;
   animation: 15s rotate infinite;

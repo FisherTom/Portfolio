@@ -11,6 +11,10 @@ function Hero() {
     <div id="hero">
       <div className="title-portrait">
         <div id="headshot-box">
+          <p className="seeking">
+            Seeking <br />
+            Work
+          </p>
           <div className="star"></div>
           <img
             id="headshot"

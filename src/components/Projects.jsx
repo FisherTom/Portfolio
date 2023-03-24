@@ -15,6 +15,7 @@ import {
   SiExpo,
   SiPostgresql,
   SiExpress,
+  SiTailwindcss,
 } from "react-icons/si";
 
 function Projects() {
@@ -36,6 +37,24 @@ function Projects() {
             <SiExpo />
             <SiMongodb />
             <SiFirebase />
+          </ProjectInfo>
+        </div>
+
+        <div className="grid-card">
+          <ProjectCard
+            title="Brew-Logger V2"
+            url="https://images.pexels.com/photos/5532992/pexels-photo-5532992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          />
+          <ProjectInfo
+            link="/beer-v2"
+            description="A version 2 of my beer recipes React app. A tool for commercial/home brewers to save and recall beer recipes. This is a MERN stack CRUD app with a focus on data visualization. This project was an opportunity to learn new technologies such as Tailwind and become more familiar with building REST APIs."
+          >
+            <SiJavascript />
+            <SiNodedotjs />
+            <SiReact />
+            <SiTailwindcss />
+            <SiMongodb />
+            <SiExpress />
           </ProjectInfo>
         </div>
 
@@ -66,9 +85,10 @@ function Projects() {
             description="Code 'sketches' made using p5.js, a 2D JavaScript graphics library. I found this to be a useful tool while learning to code. I took some of the outputs and turned them into physical artworks using a pen plotter. "
           ></ProjectInfo>
         </div>
+
         <div className="grid-card">
           <ProjectCard
-            title="Beer Recipie Frontend"
+            title="Beer Recipe Frontend"
             url="https://images.pexels.com/photos/1267700/pexels-photo-1267700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           />
           <ProjectInfo

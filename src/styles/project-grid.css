@@ -99,9 +99,10 @@
 }
 
 .icon-box {
+  margin: 1rem;
   color: black;
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .more-info-button {
