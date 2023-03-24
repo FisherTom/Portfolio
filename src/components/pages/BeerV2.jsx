@@ -32,7 +32,7 @@ function BeerV2() {
           <h4>
             Live Demo:
             <a href="https://brew-logger.netlify.app/">
-              brew-finder.netlify.app
+              brew-logger.netlify.app/
             </a>
           </h4>
           <h4>
