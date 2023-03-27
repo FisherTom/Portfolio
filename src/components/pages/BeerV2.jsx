@@ -24,8 +24,14 @@ function BeerV2() {
         <div className="project-page-info">
           <h2 className="project-page-title">Brew-Logger V2</h2>
           <p className="project-page-text">
-            This is a work in progress! Feel Free to explore my code, more info
-            comming soon!
+            I wanted to come back to the beer recipe app I created on the
+            Northcoders course. This version is a MERN stack web application
+            that allows users to create and recall beer recipes as Brew-sheets,
+            record a brew-log each time they make a recipe, and comment and vote
+            on other users' recipes. <br /> This is a WORK IN PROGRESS! I'm
+            working on this project daily while searching for jobs. Please feel
+            free to have a look at the code and view the live demo, although it
+            is not yet fully functional.
           </p>
 
           <h3>Links</h3>
