@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { ReactP5Wrapper } from "react-p5-wrapper";
+// import React, { useEffect, useState } from "react";
+// import { ReactP5Wrapper } from "react-p5-wrapper";
 
 function sketch(p) {
   let t = 0;

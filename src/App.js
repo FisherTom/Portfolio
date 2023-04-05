@@ -9,7 +9,6 @@ import BeerFrontend from "./components/pages/BeerFrontend";
 import Contact from "./components/pages/Contact";
 import "./styles/App.css";
 import Projects from "./components/Projects";
-import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 
 function App() {
