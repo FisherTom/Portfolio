@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/hero.css";
 
 import { useLocation } from "react-router-dom";
+import Nav from "./Nav";
 
 function Hero() {
   const location = useLocation();
@@ -27,6 +28,7 @@ function Hero() {
           <h3>Developer - Designer</h3>
         </div>
       </div>
+      <Nav />
     </div>
   );
 }
