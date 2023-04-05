@@ -1,7 +1,7 @@
 #hero {
   display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
   padding: 4em;
   padding-top: 2rem;
@@ -21,21 +21,32 @@
   font-style: italic;
 }
 #hero-title {
-  font-size: 6em;
+  font-size: 4em;
   text-align: left;
+}
+#headshot-box {
+  position: relative;
+  height: 120px;
+  width: 120px;
+}
+#headshot {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: 5px 3px 30px rgb(67, 67, 67);
 }
 .title-box > h3 {
   font-weight: 200;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .seeking {
   z-index: 100;
   position: absolute;
-  left: 6px;
-  top: 20px;
+  left: -8px;
+  top: 5px;
   font-weight: 600;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .star {
@@ -45,15 +56,15 @@
 }
 
 .star {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   background: rgb(225, 74, 212);
 }
 .star:after {
   content: "";
   display: block;
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   background: rgb(225, 74, 212);
   transform: rotate(45deg);
 }

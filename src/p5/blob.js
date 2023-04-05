@@ -3,16 +3,16 @@ import { ReactP5Wrapper } from "react-p5-wrapper";
 
 function sketch(p) {
   let t = 0;
-  const angles = 0.025;
+  const angles = 0.035;
   const noiseDiv = 400;
 
   // p.windowResized = () => {
   //   p.resizeCanvas(p.windowWidth, p.windowHeight);
   // };
 
-  p.updateWithProps = (props) => {
-    p.resizeCanvas(props.width, props.height);
-  };
+  // p.updateWithProps = (props) => {
+  //   p.resizeCanvas(props.width, props.height);
+  // };
 
   p.setup = () => {
     p.createCanvas(300, 300);
