@@ -36,26 +36,20 @@
 }
 
 .button {
-  background-image: linear-gradient(
-    92.88deg,
-    #455eb5 9.16%,
-    #5643cc 43.89%,
-    #673fd7 64.72%
-  );
-  padding: 1rem 2rem;
+  border: 2px solid rgb(225, 74, 212);
+  padding: 0.5rem 2rem;
   border-radius: 8px;
   cursor: pointer;
-  color: white;
+  color: black;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
   transition: all 0.5s;
 }
 
 .button > p {
-  color: #ffffff;
 }
 
 .button:hover {
-  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 20px;
   transition-duration: 0.1s;
 }
