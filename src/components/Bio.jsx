@@ -39,7 +39,7 @@ function Bio() {
           <div id="job-buttons">
             <Link to="/projects">
               <div className="button">
-                <p>View Projects</p>
+                <p style={{ margin: "0.5rem" }}>View Projects</p>
               </div>
             </Link>
             <div className="social-icons">
